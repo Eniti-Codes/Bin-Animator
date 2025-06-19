@@ -16,13 +16,42 @@ As a developer, this is my **first ever Operating System-level project**, so it'
 
 **Currently, the project is under active development.** I'm tackling the intricacies of OS integration and desktop environment interaction. While I'm pushing hard to get it working perfectly, I'm committed to the spirit of open-source. This means even if I hit a wall and can't get it fully polished, I'll release the code so others can pick it up, learn from it, and hopefully contribute to its completion.
 
------
+Here's the updated GitHub description for your Bin Animator app with the new details:
 
-### Free & Open Source
+---
 
-True to the philosophy of the free and open-source community, this project will always be **100% free and open source**. You'll be able to view, use, modify, and distribute the code as you wish.
+## How it Works
 
------
+This application monitors your trash folder and changes the system's trash can icon based on its state.
+
+* When your trash is **empty**, a `trash-empty.png` icon is displayed.
+* When your trash has **items in it**, a `trash-flies.png` icon is displayed, making it look like flies are buzzing around your full trash!
+* If you haven't emptied your trash for a week, the trashcan icon will automatically update to display the `trash-flies.png` icon.
+
+## Requirements
+
+* **Python 3**: You'll need Python 3 installed on your system to run this application.
+* **Custom Icons**: For the animation to work, you'll need two PNG image files in your Pictures folder:
+    * `trash-empty.png`
+    * `trash-flies.png`
+
+    Make sure these files are located in your `~/Pictures/` directory (e.g., `/home/yourusername/Pictures/`).
+
+## Installation and Usage
+
+1.  **Clone this repository** (or download the source code).
+2.  **Place your custom icons** (`trash-empty.png` and `trash-flies.png`) into your `~/Pictures/` folder.
+3.  **Run the application:** You can launch the application by navigating to the project directory in your terminal and running the main Python script.
+
+    ```bash
+    python3 Bin-Animator.py
+    ```
+
+## Important Note
+
+---
+
+**Bin Animator is built specifically for Linux Mint.** While it might work on other Linux distributions, its functionality cannot be guaranteed outside of Linux Mint. Compatibility with other distros may vary due to differences in icon theme management and desktop environments.
 
 ### Get Daily Updates & Join the Community\!
 
@@ -35,11 +64,5 @@ Want to follow the development of Bin Animator for Linux day-by-day? I post **da
 ### Contributions Welcome\!
 
 Since I'm new to OS-level development, contributions are absolutely welcome\! If you have experience with Linux system programming, desktop environments, or specifically Linux Mint, your insights would be invaluable. Feel free to explore the code, open issues, or even submit pull requests.
-
------
-
-I hope you're as excited about this project as I am\! Thanks for stopping by.
-
------
 
 **Disclaimer:** The clarity and structure of this description were assisted by an AI.
