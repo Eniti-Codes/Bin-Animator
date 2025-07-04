@@ -16,8 +16,6 @@ As a developer, this is my **first ever Operating System-level project**, so it'
 
 **Currently, the project is under active development.** I'm tackling the intricacies of OS integration and desktop environment interaction. While I'm pushing hard to get it working perfectly, I'm committed to the spirit of open-source. This means even if I hit a wall and can't get it fully polished, I'll release the code so others can pick it up, learn from it, and hopefully contribute to its completion.
 
-Here's the updated GitHub description for your Bin Animator app with the new details:
-
 ---
 
 ## How it Works
