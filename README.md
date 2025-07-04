@@ -33,6 +33,7 @@ This application monitors your trash folder and changes the system's trash can i
 * **Python 3**: You'll need Python 3 installed on your system to run this application.
 * **Custom Icons**: For the animation to work, you'll need two PNG image files in your Pictures folder:
     * `trash-empty.png`
+    * `trash-full.png`
     * `trash-flies.png`
 
     Make sure these files are located in your `~/Pictures/` directory (e.g., `/home/yourusername/Pictures/`).
