@@ -1,0 +1,14 @@
+{
+  "check_interval_seconds": 20,
+  "days_until_flies": 7,
+  "paths": {
+    "log_directory": "~/Documents",
+    "pictures_directory": "~/Pictures",
+    "trash_desktop_file_name": "Trash Can.desktop"
+  },
+  "icon_filenames": {
+    "empty": "trash-empty.png",
+    "full": "trash-full.png",
+    "flies": "trash-flies.png"
+  }
+}
