@@ -126,7 +126,7 @@ Made an entire setup file for those that want it to run in the background on the
 
 The README has been fully redesigned. to encourage those to run it as a background process because it's the most efficiently
 
-Temporarily removed, all printing to terminal. Hopefully it can return it eventually.
+Fix the prints not working when you run it strictly in terminal. I thought it would be a way more complex issue to fix. I just had to copy and paste some old code that I was messing with and it just functioned. So here's the update.
 
 -----
 
