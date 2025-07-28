@@ -14,6 +14,8 @@ This project was directly inspired by the macOS app **"Banana Bin"**, which I be
 
 This guide will walk you through setting up and managing the Bin-Animator application.
 
+**Quick Note:** Bin-Animator supports Hotkey Engineer. If running via Hotkey Engineer, **skip Bin-Animator's setup script** – dependencies are shared and a redundant setup may drain laptop battery.
+
 -----
 
 ### How Bin-Animator Works
