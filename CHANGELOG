@@ -1,0 +1,26 @@
+ Jul 3, 2025
+ Current updates!
+
+Made an entire setup file for those that want it to run in the background on their system. This would include installing and uninstalling it from the background processes.
+
+The README has been fully redesigned. to encourage those to run it as a background process because it's the most efficiently
+
+Fix the prints not working when you run it strictly in terminal. I thought it would be a way more complex issue to fix. I just had to copy and paste some old code that I was messing with and it just functioned. So here's the update.
+ 
+ Jul 3, 2025
+ Bin Animator Update!
+Fixed a major bug of the bin animator icon changer not functioning whatsoever.
+
+Fixed the log file not working whatsoever. Now it fully functions.
+
+Added the "stop" command in the command terminal for those that's running it by terminal
+
+Added another requirement for an image file
+
+Overall just cleaned up the code.
+ 
+ Jun 19, 2025
+ Here's a very early build of bin animator. This is alpha one built
+ 
+ Jun 16, 2025
+ Initial commit
