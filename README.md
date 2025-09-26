@@ -122,13 +122,8 @@ Want to follow the development of Bin Animator for Linux day-by-day? I post **da
 
 -----
 
-### Current updates\!
-
-Made an entire setup file for those that want it to run in the background on their system. This would include installing and uninstalling it from the background processes.
-
-The README has been fully redesigned. to encourage those to run it as a background process because it's the most efficiently
-
-Fix the prints not working when you run it strictly in terminal. I thought it would be a way more complex issue to fix. I just had to copy and paste some old code that I was messing with and it just functioned. So here's the update.
+### Roadmap\!
+* Update the setup script to use best practices for Linux security.
 
 -----
 
