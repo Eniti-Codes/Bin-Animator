@@ -1,3 +1,23 @@
+November 14 2025
+Major Architectural Changes
+    Refactored Installation: Retired the sudo-required system service setup.
+        Installation now targets user space ($HOME/.local/share/bin−animator), requiring sudo only for optional python3 dependency installation.
+        Installation is now dynamic, checking for bundled files in the execution directory rather than forcing the Downloads folder.
+        File handling switched from move (mv) to copy (cp) to preserve user source files and configuration.
+
+    System Startup: Implemented a new user systemd service unit (systemctl −−user) for reliable startup.
+        Service unit now includes After=graphical−session.target, Wants=dbus.service, and WantedBy=default.target.
+        Added Environment="DISPLAY=:0" and $\mathtt{Environment="XDG\_RUNTIME\_DIR=/run/user/%U"}$ to ensure correct graphical session integration.
+
+    File Paths: Configuration file access is now relative to the application's installed directory ($HOME/.local/share/bin−animator).
+
+ New Features
+
+    Transitional Animation: Added support for a 5-frame animation sequence when files are moved to the trash.
+        New config fields: enable_animation and animation_interval_seconds.
+    Aged Bin Notifications: Implemented a new mechanism to trigger desktop notifications when the days_until_flies threshold is met.
+        New config fields: enable_notification and notification_message.
+
 September 26 2025
 Updated everything to be license compliant
 
