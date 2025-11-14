@@ -1,14 +1,25 @@
 {
-  "check_interval_seconds": 20,
-  "days_until_flies": 7,
-  "paths": {
-    "log_directory": "~/Documents",
-    "pictures_directory": "~/Pictures",
-    "trash_desktop_file_name": "Trash Can.desktop"
-  },
-  "icon_filenames": {
-    "empty": "trash-empty.png",
-    "full": "trash-full.png",
-    "flies": "trash-flies.png"
-  }
+    "check_interval_seconds": 20,
+    "days_until_flies": 7,
+    "paths": {
+        "pictures_directory": "~/Pictures", 
+        "trash_desktop_file_name": "Trash Can.desktop",
+        "log_directory": "~/Documents" 
+    },
+    "icon_filenames": {
+        "empty": "trash-empty.png",
+        "full": "trash-full.png",
+        "flies": "trash-flies.png",
+        
+        "frame 1": "anim-01.png",
+        "frame 2": "anim-02.png",
+        "frame 3": "anim-03.png",
+        "frame 4": "anim-04.png"
+    },
+    
+    "enable_animation": false,
+    "animation_interval_seconds": 0.2,
+    
+    "enable_notification": false,
+    "notification_message": "Heads up! The bin has been full for {days} days. Time for a cleanup!"
 }
