@@ -1,3 +1,16 @@
+# PROJECT MIGRATION NOTICE
+** Bin-Animator has moved.** All active development and future updates have been migrated to platforms that better align with our commitment to independent, open-source software.
+
+### The New Hubs:
+* **Primary Home** [CodeBerg](https://codeberg.org/Eniti-Codes).
+* **Secondary Mirror** [GitLab](https://gitlab.com/Eniti-Codes). 
+
+### Important Release Info:
+* **GitHub is now a static mirror.** The code currently here is preserved for legacy use. 
+* **All future versions will NOT be released on GitHub.**
+* **Exclusive Projects:** Several of my other public projects (and future secrets) are hosted exclusively on Codeberg and GitLab. Explore the profiles there to see what else is in the works.
+---
+
 # Bin-Animator (for Linux)
 
 Welcome to the **Bin Animator for Linux** project\! This is an open-source initiative to bring an animated trashcan icon to Linux, specifically designed to visually remind you to empty your bin based on how long items have been sitting there.
